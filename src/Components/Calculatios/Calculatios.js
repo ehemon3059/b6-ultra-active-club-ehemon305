@@ -2,10 +2,27 @@ import React from 'react';
 import Profile from "../images/Untitled-1.jpg";
 import './Calculatios.css';
 
-const Calculatios = () => {
+const Calculatios = (props) => {
+
+   const { carDetails } = props;
+   console.log(carDetails);
+
+
+//     let total = 0;
+//    // let shipping = 0;
+
+//     let quantity = 0;
+//     for (const item of carDetails) {
+//       quantity = quantity + item.quantity;
+//       total = total + item.time * item.quantity;
+//      // shipping = shipping + item.shipping;
+//     }
+
+
+
     return (
       <div>
-         <div className="calculation-container">
+        <div className="calculation-container">
           <div className="profile-details">
             <img src={Profile} alt="" />
 
@@ -34,40 +51,38 @@ const Calculatios = () => {
             </div>
           </div>
 
-            <div className="break-time">
-                <h3>Add A Break</h3>
-                <div className="break-details">
-                    <p>10s</p>
-                    <p>20s</p>
-                    <p>30s</p>
-                </div>
+          <div className="break-time">
+            <h3>Add A Break</h3>
+            <div className="break-details">
+              <p>10s</p>
+              <p>20s</p>
+              <p>30s</p>
             </div>
+          </div>
 
-            <div className="exercise-calculation">
-            
+          <div className="exercise-calculation">
             <div className="exercise-details">
-                <h2>Exercise Details</h2>
-                <div className="exercise-time-details">
+              <h2>Exercise Details</h2>
+              <div className="exercise-time-details">
                 <h3>Exercise time</h3>
                 <p>
-                    2000 <small>second</small>
+                  {} <small>second</small>
                 </p>
-                </div>
+              </div>
             </div>
 
             <div className="exercise-break-time-details">
-                <h3>Break time</h3>
-                <p>
+              <h3>Break time</h3>
+              <p>
                 15 <small>second</small>
-                </p>
+              </p>
             </div>
-
-            </div>
+          </div>
 
           <div className="complete-button">
             <button>Activity Completed</button>
           </div>
-        </div> 
+        </div>
       </div>
     );
 };
