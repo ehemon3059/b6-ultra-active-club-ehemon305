@@ -31,7 +31,7 @@ const [myActivities, setMyActivity] = useState([]);
       newCart = [...cartDetails, selectedItem];
     } else {
       const rest = cartDetails.filter(
-        (product) => product.id !== selectedItem.id
+        (myActivity) => myActivity.id !== selectedItem.id
       );
       exists.quantity = exists.quantity + 1;
 

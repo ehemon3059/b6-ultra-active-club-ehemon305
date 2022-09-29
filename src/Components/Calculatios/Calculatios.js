@@ -4,8 +4,8 @@ import './Calculatios.css';
 
 const Calculatios = (props) => {
 
-   const { carDetails } = props;
-   console.log(carDetails);
+   const { cartDetails } = props;
+   console.log(cartDetails);
 
 
 //     let total = 0;
