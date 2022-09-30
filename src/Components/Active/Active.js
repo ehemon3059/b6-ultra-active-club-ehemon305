@@ -31,7 +31,7 @@ const [myActivities, setMyActivity] = useState([]);
       newCart = [...cartDetails, selectedItem];
     } else {
       const rest = cartDetails.filter(
-        (myActivity) => myActivity.id !== selectedItem.id
+        (product) => product.id !== selectedItem.id
       );
       exists.quantity = exists.quantity + 1;
 
@@ -48,6 +48,8 @@ const [myActivities, setMyActivity] = useState([]);
 
     return (
       <div className="active-container">
+        
+        
         <div className="activities-container">
           {myActivities.map((myActivity) => (
             <Activities
@@ -57,6 +59,7 @@ const [myActivities, setMyActivity] = useState([]);
             ></Activities>
           ))}
         </div>
+        
         <Calculatios cartDetails={cartDetails}></Calculatios>
       </div>
     );

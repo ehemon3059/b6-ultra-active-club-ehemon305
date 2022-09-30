@@ -2,10 +2,12 @@ import React from 'react';
 import './Activities.css'
 
 const Activities = ({ myActivity, handelAddToList }) => {
-  const { id, picture, ExName, about, time } = myActivity;
+  const { picture, ExName, about, time } = myActivity;
 
   return (
     <div>
+      
+
       <div className="myActivity">
         <img src={picture} alt=""></img>
         <div className="activity-details">
