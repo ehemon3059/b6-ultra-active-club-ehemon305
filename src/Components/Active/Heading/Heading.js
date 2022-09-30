@@ -7,8 +7,13 @@ const Heading = () => {
         <div>
             <div className="heading">
                 <img src={Icon} alt="" />
-                <h1>My Active Time</h1>
+                <h1>My Reading Time</h1>
+              
             </div>
+            <div className="sub-title">
+            <h3>Time management for reading a book</h3>
+            </div>
+        
         </div>
     );
 };
