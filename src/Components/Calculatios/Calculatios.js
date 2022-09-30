@@ -101,6 +101,7 @@ const Calculatios = (props) => {
 
             <p onClick={(event) => handleBreakTime(event)}>20</p>
             <p onClick={(event) => handleBreakTime(event)}>30</p>
+            <p onClick={(event) => handleBreakTime(event)}>40</p>
           </div>
         </div>
 
