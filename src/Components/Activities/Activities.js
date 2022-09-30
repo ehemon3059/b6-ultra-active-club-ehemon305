@@ -12,7 +12,7 @@ const Activities = ({ myActivity, handelAddToList }) => {
         <img src={picture} alt=""></img>
         <div className="activity-details">
           <p className="Exercise-name">{ExName}</p>
-          <p>Details: {about}</p>
+          <p>Details: <small>{about}</small> </p>
           <p>Times: {time}</p>
         </div>
         <button className="btn-cart">

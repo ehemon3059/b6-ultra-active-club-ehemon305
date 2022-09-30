@@ -1,14 +1,17 @@
 .myActivity {
     width: 300px;
-    height: 610px;
+    height: 600px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
     position: relative;
 }
 
 .myActivity img {
-    width: 286px;
-    height: 286px;
+    width: 186px;
+    height: 186px;
     border-radius: 8px;
     margin: 7px;
+}
+.activity-details{
+    padding: 10px 10px;
 }

@@ -1,66 +1,66 @@
 [
   {
     "id": "63357fc5dea007e6b4194d80",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Mitchell Barber",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
+    "picture": "https://miro.medium.com/max/1200/1*zBRkcBbsjWzcPjtcxqhb3Q.jpeg",
+    "ExName": " Eloquent JavaScript — Marijn Haverbeke",
+    "about": "Eloquent JavaScript assumes a level of existing programming knowledge but isn’t an advanced book. It covers basic JavaScript, syntax, concepts, functions, bugs and error handling and a whole lot more. However, the intent of the book is to help you write cleaner code rather than learn to code so bear that in mind before buying it.",
     "time": 20
   },
 
   {
     "id": "63357fc51826cecab3deaab9",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Johanna Goff",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
-    "time": 20
+    "picture": "https://miro.medium.com/max/640/1*xxoKG6PEjHeNfLWc6O7JEg.jpeg",
+    "ExName": " DOM Enlightenment — Cody Linley",
+    "about": "DOM Enlightenment is slightly different in that it’s a more comprehensive book that covers the murky world of DOM specifications, APIs and scripting. As one of the only coherent books on the subject, it communicates the core message well. Sure there are few alternatives to choose from, but this book is genuinely useful.",
+    "time": 30
   },
   {
     "id": "63357fc5f66cdc2f9410cb95",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Shirley Farrell",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
-    "time": 20
+    "picture": "https://miro.medium.com/max/640/1*1AfPLD59sNgck5zlK2VQgA.jpeg",
+    "ExName": "Learning JavaScript Design Patterns — Addy Osmani",
+    "about": "Learning JavaScript Design Patterns from Google Developer Programs Engineer Addy Osmani covers the classic “Gang of Four” design patterns and includes namespacing patterns, jQuery plug-in design patterns and a whole lot more.",
+    "time": 40
   },
   {
     "id": "63357fc501c82000e749cc5e",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Neal Blanchard",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
+    "picture": "https://images-na.ssl-images-amazon.com/images/I/91lbebRlqgL.jpg",
+    "ExName": "Learning PHP, MySQL & JavaScript 5e",
+    "about": "Build interactive, data-driven websites with the potent combination of open source technologies and web standards, even if you have only basic HTML knowledge. In this update to this popular hands-on guide, you’ll tackle dynamic web programming with the latest versions of today’s core technologies: PHP, MySQL, JavaScript, CSS, HTML5, and key jQuery libraries. ",
     "time": 20
   },
   {
     "id": "63357fc53643f2f19d560b0f",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "picture": "https://images-na.ssl-images-amazon.com/images/I/91ABxmbYNSL.jpg",
     "ExName": "Pacheco Woods",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
-    "time": 20
+    "about": "If you're ready to create web pages more complex than those you can build with HTML and CSS, Head First PHP & MySQL is the ultimate learning guide to building dynamic, database-driven websites using PHP and MySQL. ",
+    "time": 30
   },
   {
     "id": "63357fc53f115bf8ec33bcd8",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Gross Solomon",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
-    "time": 20
+    "picture": "https://images-na.ssl-images-amazon.com/images/I/71sL0Qpd+YL.jpg",
+    "ExName": "Python Crash Course",
+    "about": "'Python Crash Course' by Eric Matthews is a fast-paced and comprehensive introduction to Python language for beginners who wish to learn Python programming and write useful programs.",
+    "time": 40
   },
   {
     "id": "63357fc567c810f8edceac53",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Nicholson Barker",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
+    "picture": "https://images-na.ssl-images-amazon.com/images/I/715PNi5Wa2L.jpg",
+    "ExName": "Automate the Boring Stuff with Python",
+    "about": "It is one of the best international selling Python books that teaches Python 3 to everyone, including technically inclined beginners and liberal art majors, and geeks alike. ",
     "time": 20
   },
   {
     "id": "63357fc5c90165e063ca29c0",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Petersen Richardson",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
-    "time": 20
+    "picture": "https://images-na.ssl-images-amazon.com/images/I/81Gt2O4FvTL.jpg",
+    "ExName": "Head-First Python (2nd edition)",
+    "about": "‘Head-First Python’ by Paul Barry is the best book to learn python, a quick and easy fix for you if you wish to learn the basics of Python programming without having to slog through counterproductive tutorials and books.",
+    "time": 40
   },
   {
     "id": "63357fc5b26ee64be93c76d1",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Rena Bauer",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
-    "time": 20
+    "picture": "https://images-na.ssl-images-amazon.com/images/I/614DWyHLwWS.jpg",
+    "ExName": "Learning Python, 5th Edition",
+    "about": "The author of the book, Mark Lutz, gives a comprehensive, in-depth introduction to the core Python language based on his training course. The latest version of the book encourages you to write efficient, high-quality code.",
+    "time": 30
   }
 ]
