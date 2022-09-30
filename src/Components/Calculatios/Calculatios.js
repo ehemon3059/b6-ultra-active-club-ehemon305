@@ -95,7 +95,7 @@ const Calculatios = (props) => {
         </div>
 
         <div className="break-time">
-          <h3>Add A Break</h3>
+          <h4>Add A Break</h4>
           <div className="break-details">
             <p onClick={(event) => handleBreakTime(event)}>10</p>
 
@@ -107,9 +107,9 @@ const Calculatios = (props) => {
 
         <div className="exercise-calculation">
           <div className="exercise-details">
-            <h3>Reading Management</h3>
+            <h4>Reading Management</h4>
             <div className="exercise-time-details">
-              <h4>Reading Time</h4>
+              <h5>Reading Time</h5>
               <p>
                 {total} <small>minutes</small>
               </p>
@@ -117,7 +117,7 @@ const Calculatios = (props) => {
           </div>
 
           <div className="exercise-break-time-details">
-            <h4>Break time</h4>
+            <h5>Break time</h5>
             <p>
               {saveTime} <small>minutes</small>
             </p>

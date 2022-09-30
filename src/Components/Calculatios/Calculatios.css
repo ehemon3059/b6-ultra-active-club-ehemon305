@@ -48,6 +48,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 18px;
 }
 
 .details-text {
@@ -78,6 +79,7 @@
 }
 .break-details p{
 cursor: pointer;
+padding-top: 10px;
 }
 
 .exercise-calculation {
