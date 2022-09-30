@@ -1,19 +1,44 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Profile from "../images/Untitled-1.jpg";
 import './Calculatios.css';
 
 const Calculatios = (props) => {
   const { cartDetails } = props;
 
-  const [ state, setState ] = useState();
+
+  const [saveTime , setSaveTime]= useState(0);
 
   
   const handleBreakTime = (event) => {
     const time = event.target.innerText;
-    setState(time);
+   
+ 
+   localStorage.setItem('myTime', JSON.stringify(time))
+
+   setSaveTime(time)
     
   };
 
+
+  useEffect(()=>{
+
+    const items = JSON.parse(localStorage.getItem('myTime'));
+
+    if (items) {
+      setSaveTime(items);
+     }
+
+  },[saveTime]);
+
+
+//   useEffect(()=>{
+//     const storedTime = localStorage.getItem('myTime');
+
+//   if (storedTime) {
+//     setState(storedTime);
+//    }
+
+//  },[])
 
 
 
@@ -83,7 +108,7 @@ const Calculatios = (props) => {
           <div className="exercise-break-time-details">
             <h3>Break time</h3>
             <p>
-              {state} <small>second</small>
+              {saveTime} <small>second</small>
             </p>
           </div>
         </div>

@@ -6,7 +6,7 @@ import Calculatios from '../Calculatios/Calculatios';
 
 const Active = () => {
 
-const [myActivities, setMyActivity] = useState([]);
+    const [myActivities, setMyActivity] = useState([]);
 
     const [cartDetails, setCart] = useState([]);
 
@@ -46,6 +46,10 @@ const [myActivities, setMyActivity] = useState([]);
 
 
 
+
+
+
+
     return (
       <div className="active-container">
         
@@ -60,7 +64,7 @@ const [myActivities, setMyActivity] = useState([]);
           ))}
         </div>
         
-        <Calculatios cartDetails={cartDetails}></Calculatios>
+        <Calculatios  cartDetails={cartDetails}></Calculatios>
       </div>
     );
 };
