@@ -2,16 +2,16 @@
     display: flex;
     flex-direction: row;
     color: green;
-  
-    margin-left: 50px;
-    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 20px 50px;
 
 }
 .heading img{
     padding-left: 20px;
-    height: 80px;
-    width: 80px;
-}
-.heading h1{
-    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    width: 40px;
+    
 }

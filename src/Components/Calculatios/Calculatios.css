@@ -75,6 +75,9 @@
     border-radius: 10px;
     margin: 20px;
 }
+.break-details p{
+cursor: pointer;
+}
 
 .exercise-calculation {
     margin-top: 50px;

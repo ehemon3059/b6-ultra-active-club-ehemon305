@@ -62,26 +62,5 @@
     "ExName": "Rena Bauer",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
     "time": 20
-  },
-  {
-    "id": "63357fc50b1a7e81b449c3de",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Rhoda Olson",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
-    "time": 20
-  },
-  {
-    "id": "63357fc57ae359d2bf915fb4",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Noel Miranda",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
-    "time": 20
-  },
-  {
-    "id": "63357fc58ee76fdab13c32d1",
-    "picture": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "ExName": "Kaufman Dotson",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem optio dicta dolore in, magnam dolores libero accusantium! In, non ipsam",
-    "time": 20
   }
 ]
