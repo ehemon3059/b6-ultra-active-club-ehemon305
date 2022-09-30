@@ -108,17 +108,17 @@ const Calculatios = (props) => {
           <div className="exercise-details">
             <h2>Exercise Details</h2>
             <div className="exercise-time-details">
-              <h3>Exercise time</h3>
+              <h4>Reading Time</h4>
               <p>
-                {total} <small>second</small>
+                {total} <small>minutes</small>
               </p>
             </div>
           </div>
 
           <div className="exercise-break-time-details">
-            <h3>Break time</h3>
+            <h4>Break time</h4>
             <p>
-              {saveTime} <small>second</small>
+              {saveTime} <small>minutes</small>
             </p>
           </div>
         </div>

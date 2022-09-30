@@ -3,7 +3,7 @@
     "id": "63357fc5dea007e6b4194d80",
     "picture": "https://miro.medium.com/max/1200/1*zBRkcBbsjWzcPjtcxqhb3Q.jpeg",
     "ExName": " Eloquent JavaScript — Marijn Haverbeke",
-    "about": "Eloquent JavaScript assumes a level of existing programming knowledge but isn’t an advanced book. It covers basic JavaScript, syntax, concepts, functions, bugs and error handling and a whole lot more. However, the intent of the book is to help you write cleaner code rather than learn to code so bear that in mind before buying it.",
+    "about": "Eloquent JavaScript assumes a level of existing programming knowledge but isn’t an advanced book.",
     "time": 20
   },
 
@@ -11,7 +11,7 @@
     "id": "63357fc51826cecab3deaab9",
     "picture": "https://miro.medium.com/max/640/1*xxoKG6PEjHeNfLWc6O7JEg.jpeg",
     "ExName": " DOM Enlightenment — Cody Linley",
-    "about": "DOM Enlightenment is slightly different in that it’s a more comprehensive book that covers the murky world of DOM specifications, APIs and scripting. As one of the only coherent books on the subject, it communicates the core message well. Sure there are few alternatives to choose from, but this book is genuinely useful.",
+    "about": "DOM Enlightenment is slightly different in that it’s a more comprehensive book that covers the murky world of DOM specifications, APIs and scripting.",
     "time": 30
   },
   {
@@ -25,7 +25,7 @@
     "id": "63357fc501c82000e749cc5e",
     "picture": "https://images-na.ssl-images-amazon.com/images/I/91lbebRlqgL.jpg",
     "ExName": "Learning PHP, MySQL & JavaScript 5e",
-    "about": "Build interactive, data-driven websites with the potent combination of open source technologies and web standards, even if you have only basic HTML knowledge. In this update to this popular hands-on guide, you’ll tackle dynamic web programming with the latest versions of today’s core technologies: PHP, MySQL, JavaScript, CSS, HTML5, and key jQuery libraries. ",
+    "about": "Build interactive, data-driven websites with the potent combination of open source technologies and web standards, even if you have only basic HTML knowledge. ",
     "time": 20
   },
   {
