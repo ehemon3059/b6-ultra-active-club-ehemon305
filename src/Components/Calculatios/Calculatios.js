@@ -106,7 +106,7 @@ const Calculatios = (props) => {
 
         <div className="exercise-calculation">
           <div className="exercise-details">
-            <h2>Exercise Details</h2>
+            <h3>Reading Management</h3>
             <div className="exercise-time-details">
               <h4>Reading Time</h4>
               <p>

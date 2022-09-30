@@ -15,3 +15,14 @@
 .activity-details{
     padding: 10px 10px;
 }
+.btn-cart{
+    width: 80%;
+    color: white;
+    background-color: #5d5fef;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+}
+.btn-cart:hover{
+    background-color: #32349f;
+}

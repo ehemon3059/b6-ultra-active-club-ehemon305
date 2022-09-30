@@ -62,7 +62,8 @@
 .break-time {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    align-items: center;
+    
 
 }
 
@@ -73,7 +74,7 @@
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
-    margin: 20px;
+    width: 80%;
 }
 .break-details p{
 cursor: pointer;
@@ -114,7 +115,7 @@ cursor: pointer;
 }
 
 .complete-button button {
-    width: 100%;
+    width: 80%;
     color: white;
     background-color: #5d5fef;
     border: none;
