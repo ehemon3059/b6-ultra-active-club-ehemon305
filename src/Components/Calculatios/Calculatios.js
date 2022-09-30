@@ -1,6 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Profile from "../images/Untitled-1.jpg";
 import './Calculatios.css';
+import Toast from '../Toast/Toast';
+
+
+
+
+const TostType = {
+  success: "success",
+  fail: "fail",
+};
 
 const Calculatios = (props) => {
   const { cartDetails } = props;
@@ -53,6 +62,7 @@ const Calculatios = (props) => {
     // shipping = shipping + item.shipping;
   }
 
+  const toastBarRef = useRef(null) 
   return (
     <div>
       <div className="calculation-container">
@@ -114,7 +124,8 @@ const Calculatios = (props) => {
         </div>
 
         <div className="complete-button">
-          <button>Activity Completed</button>
+          <button onClick={() =>{toastBarRef.current.show();}}>Activity Completed</button>
+          <Toast ref={toastBarRef} message="Activity Completed !" type={TostType.success}></Toast>
         </div>
       </div>
     </div>
